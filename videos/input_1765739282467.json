@@ -1,0 +1,23 @@
+{
+  "original_video": "videos/input_1765739282467.mp4",
+  "output_video": "videos/output_1765739282467.mp4",
+  "target_language": "pt",
+  "model": "whisper-1",
+  "options": {
+    "font": "Roboto",
+    "color": "yellow",
+    "position": "center",
+    "layout": "full",
+    "useEmojis": true,
+    "subtitles": true
+  },
+  "subtitle_config": {
+    "enabled": true,
+    "font": "Roboto",
+    "color": "yellow",
+    "position": "center",
+    "use_emojis": true
+  },
+  "status": "pending_processing",
+  "timestamp": 1765739282467
+}
