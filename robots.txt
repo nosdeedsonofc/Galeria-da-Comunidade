@@ -1,0 +1,16 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow functional API endpoints and other backend paths
+Disallow: /api/create-checkout-session
+Disallow: /api/download-image
+Disallow: /api/generate-realistic-image
+Disallow: /api/check-replicate-prediction
+Disallow: /api/start-replicate-prediction
+Disallow: /api/stripe-webhook
+Disallow: /api/referral
+Disallow: /functions/
+
+# Sitemap location
+Sitemap: https://nosde.space/sitemap.xml
